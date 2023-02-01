@@ -1,0 +1,23 @@
+Add to JetFormBuilder
+1. Go to JetFormBuilder
+2. Create a new registration form (https://jetformbuilder.com/features/wordpress-register-form-creation/) or edit an existing registration form which you have made earlier
+3. Add 2 text fields to the form
+4. Edit both fields and set:
+- add a field label for both fields, name them for example Password and Password check
+- add a form field name for the first field to for example: password
+- add a form field name for the second field to for example: password-check
+- set the Field type to Password for both fields
+5. Add a HTML field to the form, this will be where the password strength meter is shown
+6. Insert this code to the HTML field: <span id="password-strength"></span>
+
+Add to Elementor code
+1. In the Wordpress backend, go to Elementor
+2. Click on Custom Code in the menu
+3. Add a new code
+4. At location, choose </body> - End
+5. At the content, add the content from the .js file in this folder (password-strength.js)
+6. Modify line 43, 46 and 47 with the name of your password fields, which are the names you have entered at Form field name in JetFormBuilder
+7. Choose if necessary the condition for this code, so that it only loads on the page where the registration form is which you made with JetFormBuilder
+8. Click on Update
+
+Check the frontend where the form is placed :)
