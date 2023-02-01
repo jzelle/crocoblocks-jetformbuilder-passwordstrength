@@ -1,4 +1,4 @@
-# crocoblocks
+# Crocoblocks JetFormBuilder Password Strength
 
 ### 1. Add to functions.php in your (child) theme
 1. Add the following code to your functions.php file:
