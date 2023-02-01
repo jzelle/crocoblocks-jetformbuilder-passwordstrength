@@ -34,7 +34,14 @@ Via this code you can add a password strength meter to forms which contain passw
 8. Click on Update
 ![Elementor code setup](https://user-images.githubusercontent.com/124208724/216170646-a9c43aea-ded4-43e7-b9ed-86b3d5d552f4.png)
 
-### 4. Add CSS
+
+Now check the frontend where the form is placed :)
+
+
+
+### Enhancements possible
+
+Make the strength visible as colors
 1. Edit your custom.css file (or somewhere else)
 2. Add the following code which will display the password strenght in color to the user
 `.bad, .short {
@@ -44,11 +51,11 @@ Via this code you can add a password strength meter to forms which contain passw
     color: green;
 }`
 
-Now check the frontend where the form is placed :)
-
-
-
-### Modifications possible
+Hide the submit button to show when the password fields have been filled
+1. Edit the form
+2. Add a conditional block (https://crocoblock.com/knowledge-base/articles/jetformbuilder-conditional-visibility-for-form-fields/)
+3. Configure the conditional block so that it will hide when the password fields are empty
+4. Save the form
 
 Set the strength on which the submit button will be active
 1. Go to the Elementor code which you have added
