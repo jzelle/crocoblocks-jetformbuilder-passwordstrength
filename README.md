@@ -1,8 +1,10 @@
 # Crocoblocks JetFormBuilder Password Strength
 
+Via this code you can add a password strength meter to forms which contain password fields. For example in the screenshot below you can see that I have entered a very weak password. The code also disables the Submit button until a strong password has been entered, and the password check field also matches that password.
+![Example frontend](https://user-images.githubusercontent.com/124208724/216170611-0fb2a756-208f-4175-8876-cc7fc7fbe3fc.png)
+
 ### 1. Add to functions.php in your (child) theme
-1. Add the following code to your functions.php file:
-wp_enqueue_script( 'password-strength-meter' );
+1. Add the following code to your functions.php file: `wp_enqueue_script( 'password-strength-meter' );`
 2. Save the file
 
 ### 2. Add to JetFormBuilder
@@ -15,7 +17,7 @@ wp_enqueue_script( 'password-strength-meter' );
 - add a form field name for the second field to for example: password-check
 - set the Field type to Password for both fields
 5. Add a HTML field to the form, this will be where the password strength meter is shown
-6. Insert this code to the HTML field: <span id="password-strength"></span>
+6. Insert this code to the HTML field: `<span id="password-strength"></span>`
 7. Save the form
 ![JetFormBuilder form setup](https://user-images.githubusercontent.com/124208724/216170675-7286fe73-fbfd-4844-8c07-3e9231a5847e.png)
 
@@ -33,8 +35,6 @@ wp_enqueue_script( 'password-strength-meter' );
 
 
 Now check the frontend where the form is placed :)
-
-![Example frontend](https://user-images.githubusercontent.com/124208724/216170611-0fb2a756-208f-4175-8876-cc7fc7fbe3fc.png)
 
 
 
