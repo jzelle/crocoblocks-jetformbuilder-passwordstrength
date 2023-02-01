@@ -1,6 +1,7 @@
 # Crocoblocks JetFormBuilder Password Strength
 
 Via this code you can add a password strength meter to forms which contain password fields. For example in the screenshot below you can see that I have entered a very weak password. The code also disables the Submit button until a strong password has been entered, and the password check field also matches that password.
+
 ![Example frontend](https://user-images.githubusercontent.com/124208724/216170611-0fb2a756-208f-4175-8876-cc7fc7fbe3fc.png)
 
 ### 1. Add to functions.php in your (child) theme
