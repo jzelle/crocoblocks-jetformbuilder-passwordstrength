@@ -27,7 +27,7 @@ Via this code you can add a password strength meter to forms which contain passw
 2. Click on Custom Code in the menu
 3. Add a new code
 4. At location, choose </body> - End
-5. At the content, add the full content from the .js file in this folder (Add to Elementor code.js)
+5. At the content, add the full content from this file: https://github.com/jzelle/crocoblocks-jetformbuilder-passwordstrength/blob/main/Add%20to%20Elementor%20code.js
 6. If you have entered other field names at JetFormBuilder: modify line 43, 46 and 47 with the name of your password fields, which are the names you have entered at Form field name in JetFormBuilder
 7. Choose if necessary the condition for this code, so that it only loads on the page where the registration form is which you made with JetFormBuilder
 8. Click on Update
