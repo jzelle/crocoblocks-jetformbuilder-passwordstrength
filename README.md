@@ -33,6 +33,15 @@ Via this code you can add a password strength meter to forms which contain passw
 8. Click on Update
 ![Elementor code setup](https://user-images.githubusercontent.com/124208724/216170646-a9c43aea-ded4-43e7-b9ed-86b3d5d552f4.png)
 
+### 4. Add CSS
+1. Edit your custom.css file (or somewhere else)
+2. Add the following code which will display the password strenght in color to the user
+`.bad, .short {
+    color: red;
+}
+.good, .strong {
+    color: green;
+}`
 
 Now check the frontend where the form is placed :)
 
