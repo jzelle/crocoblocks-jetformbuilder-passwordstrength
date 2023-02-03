@@ -66,3 +66,7 @@ Add blacklisted words to the validation
 1. Go to the Elementor code which you have added
 2. At line 50, add extra words by adding the following to the array: , 'xxx'
 3. Save the code
+
+
+### Source
+Code has been modified from this article to work with JetFormBuilder: https://code.tutsplus.com/articles/using-the-included-password-strength-meter-script-in-wordpress--wp-34736
