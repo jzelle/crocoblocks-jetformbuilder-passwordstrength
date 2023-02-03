@@ -69,4 +69,4 @@ Add blacklisted words to the validation
 
 
 ### Source
-Code has been modified from this article by Benjamin Intal to work with JetFormBuilder: https://code.tutsplus.com/articles/using-the-included-password-strength-meter-script-in-wordpress--wp-34736
+Code has been modified from this article by Benjamin Intal (2014) to work with JetFormBuilder: https://code.tutsplus.com/articles/using-the-included-password-strength-meter-script-in-wordpress--wp-34736
